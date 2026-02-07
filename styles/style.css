@@ -113,14 +113,25 @@ nav li a{
 
 
 /* main section style */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section style */
 .about{
     background-color: #FFF8F3;
     padding: 40px;
-    margin: 20px 60px;
+    margin: 100px 0px;
 }
 
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
 
 
