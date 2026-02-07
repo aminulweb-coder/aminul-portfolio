@@ -161,9 +161,38 @@ padding: 10px 150px;
 }
 
 /* resume section style */
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
 .resume-column-title{
     font-size: 30px;
     color: #474747;
     font-weight: bold;
+   
+}
+.resune-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+     margin-bottom: 10px;
+}
+.resume-item-institude{
+    margin-bottom: 20px;
+    margin-top: 0px;
+    
+}
+.resume-item-institude, .resume-item-des{
+    color: #474747;
+}
+
+.resume-container hr{
+    margin: 30px;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 40px;
 }
 
