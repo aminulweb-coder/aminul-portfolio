@@ -199,7 +199,27 @@ padding: 10px 150px;
 /* footer style */
 footer{
     display: flex;
+    gap: 50px;
     background-color: #FFF8F3;
     padding: 130px 100px;
     margin-top: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    color: #474747;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 17px 35px;
+    border: 0;
+    margin-bottom: 25px;
+    width: 100%;
+
+}
+.social-icon img{
+    margin-right: 20px;
 }
